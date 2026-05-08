@@ -64,7 +64,7 @@ export function About() {
             as="article"
             className="bg-off-white border border-cafe/5 p-7 sm:p-8 rounded-2xl shadow-card hover:shadow-lg transition-shadow duration-300 md:col-span-2 lg:col-span-1"
           >
-            <h3 className="text-xl sm:text-2xl font-bold mb-3 accent-color-text">Nossos Valores</h3>
+            <h3 className="text-xl sm:text-2xl font-bold mb-3 accent-color-text">Atendimento</h3>
             <p className="text-chocolate/75 leading-relaxed">Online em todo o Brasil</p>
           </FadeIn>
         </div>
