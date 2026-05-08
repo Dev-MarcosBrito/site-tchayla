@@ -36,7 +36,7 @@ const SERVICES = [
 
 export function Atuacao() {
   return (
-    <section id="atuacao" className="py-16 sm:py-20 md:py-24 bg-off-white/80" aria-labelledby="atuacao-heading">
+    <section id="atuacao" className="py-16 sm:py-20 md:py-24 bg-off-white/80 scroll-mt-28" aria-labelledby="atuacao-heading">
       <div className="container mx-auto max-w-6xl px-5 sm:px-6">
         <FadeIn as="header" className="text-center mb-12 sm:mb-16">
           <h2 id="atuacao-heading" className="text-3xl sm:text-4xl font-bold mb-3 text-cafe">

@@ -3,8 +3,7 @@ export function Footer() {
     <footer className="bg-cafe text-off-white py-10 border-t border-bege-dourado/15">
       <div className="container mx-auto max-w-6xl px-5 sm:px-6 text-center">
         <p className="font-serif text-lg leading-relaxed text-off-white/95">
-          Advogada<span className="text-bege-dourado/90">Tchayla Sousa</span> — Advocacia com propósito e resultados.
-        </p>
+          Advogada<span className="text-bege-dourado/90"> - Tchayla Sousa</span></p>
         <div className="mt-5 flex items-center justify-center gap-4">
           <a
             href="https://www.instagram.com/tchayla.previdenciario?igsh=MTd4Nm84NDVuaGx3cw%3D%3D&utm_source=qr"

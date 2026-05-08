@@ -2,7 +2,7 @@ import { FadeIn } from "./FadeIn.jsx";
 
 export function About() {
   return (
-    <section id="sobre" className="py-16 sm:py-20 md:py-24 bg-white border-y border-cafe/5" aria-labelledby="sobre-heading">
+    <section id="sobre" className="py-16 sm:py-20 md:py-24 bg-white border-y border-cafe/5 scroll-mt-28" aria-labelledby="sobre-heading">
       <div className="container mx-auto max-w-6xl px-5 sm:px-6">
         <FadeIn
           as="article"

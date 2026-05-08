@@ -4,7 +4,7 @@ export function Contact() {
   return (
     <section
       id="contato"
-      className="py-16 sm:py-20 md:py-24 bg-gradient-to-b from-off-white to-white border-t border-cafe/5"
+      className="py-16 sm:py-20 md:py-24 bg-gradient-to-b from-off-white to-white border-t border-cafe/5 scroll-mt-28"
       aria-labelledby="contato-heading"
     >
       <div className="container mx-auto max-w-6xl px-5 sm:px-6 text-center">

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useHeaderScrolled } from "../hooks/useHeaderScrolled.js";
 
 export function Header() {
@@ -7,6 +7,17 @@ export function Header() {
 
   const closeMobile = () => setMobileOpen(false);
   const toggleMobile = () => setMobileOpen((o) => !o);
+
+  useEffect(() => {
+    if (!mobileOpen) return;
+
+    const onKeyDown = (e) => {
+      if (e.key === "Escape") closeMobile();
+    };
+
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [mobileOpen]);
 
   return (
     <header

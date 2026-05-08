@@ -12,6 +12,9 @@
   }
   body {
     @apply font-sans bg-off-white text-chocolate;
+    /* Fundo com gradiente sutil (visual mais sofisticado) */
+    background-image: radial-gradient(1000px circle at 10% 0%, rgba(168, 137, 85, 0.16), transparent 55%),
+      radial-gradient(800px circle at 85% 12%, rgba(43, 26, 16, 0.08), transparent 52%);
   }
   h1,
   h2,
@@ -72,6 +75,14 @@
   @media (min-width: 1024px) {
     .img-organic {
       border-radius: 2.5rem 1rem 2.5rem 2.5rem;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .fade-in-section {
+      opacity: 1 !important;
+      transform: none !important;
+      transition: none !important;
     }
   }
 }

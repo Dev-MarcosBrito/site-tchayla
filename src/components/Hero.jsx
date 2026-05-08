@@ -11,7 +11,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center justify-start text-off-white pt-24 pb-16"
+      className="min-h-screen flex items-center justify-start text-off-white pt-24 pb-16 scroll-mt-28"
       aria-labelledby="hero-heading"
       style={{ "--hero-bg-image": heroBgImage }}
     >
