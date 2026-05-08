@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-cafe: #2b1a10;
+    --color-chocolate: #433126;
+    --color-dourado: #8a6a3a;
+    --color-bege-dourado: #a88955;
+    --color-off-white: #e7dfd7;
+  }
+  body {
+    @apply font-sans bg-off-white text-chocolate;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif text-cafe;
+  }
+}
+
+@layer components {
+  .accent-color {
+    background-color: var(--color-dourado);
+  }
+  .accent-color-text {
+    color: var(--color-bege-dourado);
+  }
+  .accent-color:hover {
+    background-color: var(--color-chocolate);
+  }
+  .fade-in-section {
+    @apply opacity-0 translate-y-5 transition-[opacity,transform] duration-[600ms] ease-out;
+  }
+  .fade-in-section.is-visible {
+    @apply opacity-100 translate-y-0;
+  }
+  #hero h1 {
+    color: var(--color-off-white);
+  }
+  #hero {
+    /* A URL da imagem vem do React via CSS var, para funcionar em subpasta (GitHub Pages) */
+    background-image: var(--hero-bg-image);
+    @apply bg-cover bg-center;
+  }
+  a:focus-visible,
+  button:focus-visible {
+    outline: 2px solid var(--color-bege-dourado);
+    outline-offset: 3px;
+  }
+  .nav-link {
+    @apply relative pb-1;
+  }
+  .nav-link::after {
+    content: "";
+    @apply absolute left-0 bottom-0 h-0.5 w-0 bg-bege-dourado transition-[width] duration-200 ease-out;
+  }
+  .nav-link:hover::after,
+  .nav-link:focus-visible::after {
+    @apply w-full;
+  }
+  .img-organic {
+    border-radius: 2.25rem 2.25rem 2.25rem 0.75rem;
+    box-shadow:
+      0 20px 50px -12px rgba(43, 26, 16, 0.35),
+      0 0 0 1px rgba(168, 137, 85, 0.2);
+  }
+  @media (min-width: 1024px) {
+    .img-organic {
+      border-radius: 2.5rem 1rem 2.5rem 2.5rem;
+    }
+  }
+}
