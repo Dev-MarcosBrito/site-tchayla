@@ -53,7 +53,7 @@ O AdvocaIA simboliza o futuro da criação digital — onde a criatividade human
 ✅ Finalizado
 📍 Tipo: Projeto Conceitual (Fictício)
 
-🔗 Acesse: https://dev-marcosbrito.github.io/advocaia-site/
+🔗 Acesse: https://dev-marcosbrito.github.io/site-tchayla/
 
 📫 Contato: +55 (47) 9 8929-8761
 
