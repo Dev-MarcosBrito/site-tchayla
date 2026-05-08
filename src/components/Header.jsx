@@ -20,7 +20,7 @@ export function Header() {
           href="#hero"
           className="text-xl sm:text-2xl font-bold font-serif text-cafe tracking-tight shrink-0 transition-opacity hover:opacity-90"
         >
-          Advogada<span className="accent-color-text">Tchayla Souza</span>
+          Advogada<span className="accent-color-text">Tchayla Sousa</span>
         </a>
 
         <nav className="hidden md:flex items-center gap-8 lg:gap-10" aria-label="Navegação principal">
